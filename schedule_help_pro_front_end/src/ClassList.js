@@ -15,4 +15,4 @@ function ClassList(props) {
     )
 }
 
-export default
+export default ClassList;
