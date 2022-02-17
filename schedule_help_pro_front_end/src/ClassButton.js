@@ -5,7 +5,8 @@ function ClassButton(props){
     return(
         <input 
             type='button'
-            value={props.caption}/>
+            value={props.caption}
+            onClick={props.onClick}/>
     );
 }
 

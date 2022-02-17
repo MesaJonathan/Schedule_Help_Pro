@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import ClassButton from './ClassButton';
+import ClassList from './ClassList';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ClassButton caption="Example Class"/>
+        <ClassList />
       </header>
     </div>
   );

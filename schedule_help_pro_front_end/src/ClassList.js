@@ -2,14 +2,22 @@ import React from 'react'
 import ClassButton from './ClassButton'
 
 function ClassList(props) {
-    const classNames = ["bio", "math", "english", "balls class"];
+    const names = [
+        {text: "bio", handler: ()=> props.classClicked("bio")},
+        {text: "math", handler: ()=> props.classClicked("math")},
+        {text: "English", handler: ()=> props.classClicked("English")},
+        {text: "history", handler: ()=> props.classClicked("history")}
+    ];
 
-    const classButtons = classNames.map((value, index) =>{
-        return <ClassButton classNames={value}/>
+    const classButtons = names.map((value, index) =>{
+        return <ClassButton 
+        caption={value.text}
+        onClick={value.handler} />
     });
 
     return(
-        <div>
+        <div className='class-list-view'>
+            <ClassList text={props.result}/>
             {classButtons}
         </div>
     )
