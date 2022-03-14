@@ -1,4 +1,4 @@
-# Group_36_Project
+# Schedule Help Pro
 
 ## How to get it working on your device
 1. Clone onto your device
