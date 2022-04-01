@@ -76,7 +76,7 @@ app.post('/api/quote', async (req, res) => {
             {$set: {quote: req.body.quote}}
         )
 
-        return{status: 'ok'}
+        return res.json({status: 'ok'})
     } catch(error) {
         console.log(error)
         res.json({status: 'error', error: 'invalid token'})
