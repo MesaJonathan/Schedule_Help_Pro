@@ -20,3 +20,11 @@ code {
   padding: 10px;
   grid-column: 1 / span 4;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+  background-color: rgb(136, 136, 136);
+}
