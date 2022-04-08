@@ -1,25 +1,17 @@
-function App() {
+import ListClasses from '../UfAPI'
 
-	/*
-    let request = new XMLHttpRequest()
-	request.open("GET", "https://one.ufl.edu/apix/soc/schedule/?category=CWSP&term=2228")
-	request.send()
+const classList = () => {
 
-	request.onload = () => {
-		console.log(request)
-		if(request.status === 200){
-			console.log(UF.parse(request.response))
-		} else {
-			console.log('error $')
-		}
-	}
-	*/
+	//var list = ListClasses()
+
+
 	return (
 		<div className="App">
-			<h1>Login</h1>
-      
-		</div>
+      		<h1>ClassList</h1>
+			
+    	</div>
   	);
 }
 
-export default App;
+export default classList;
+ 
