@@ -23,7 +23,7 @@ function App() {
     if(data.user){
       localStorage.setItem('token', data.user)
       alert('Login Successful')
-      window.location.href = '/dashboard'
+      window.location.href = '/classlist'
     } else {
       alert('Please check your username!')
     }

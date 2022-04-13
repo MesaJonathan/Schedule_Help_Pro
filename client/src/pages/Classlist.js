@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Course from '../Course'
+import './Classlist.css'
 
 class schoolCourse{
     constructor(name, code, id, desc, pres, key){
@@ -9,20 +10,18 @@ class schoolCourse{
         this.desc = desc
 		this.key = key
 		if(pres === ''){
-			this.pres = 'none'
+			this.pres = 'Prereq: none.'
 		} else{
 			this.pres = pres
 		}
     }
 }
 
-function searchClass(){
-	
-}
+
 	
 function ClassList(){
-	const [courseList, setCourseList] = useState('')
-	const [searchName, setSearchName] = useState('')
+	const [courseList, setCourseList] = useState([])
+	const [searchTerm, setSearchTerm] = useState('')
 
 	useEffect(() => {
 		var XMLHttpRequest = require('xhr2');
@@ -48,31 +47,38 @@ function ClassList(){
 					
 					courses.push(exCourse)
 				}
+
 				setCourseList(courses.map(course => <Course key={course.key} course={course}></Course>))
+		
 			} else {
 				console.log('error $')
 			}
-		}
+		}	
 	}, [])
-	
-	
 
 	return (
-			<div className="App">
-				<h1>ClassList</h1>
-				<form onSubmit={searchClass}>
-					<input 
-					value={searchName}
-					onChange={(e) => setSearchName(e.target.value)}
-					type="text" 
-					placeholder="Enter course name" 
-					/>
-					<br />
-					<input type="submit" value="search"/>
-				</form>
+			<div className="Classlist">
+				<h1>Class List</h1>
+					<div className='input'>
+						<input 
+							type="text" 
+							placeholder="Filter Classes..." 
+							onChange={event => {
+								setSearchTerm(event.target.value)
+								/*
+								setCourseList(courseList.filter(course => {
+									if(searchTerm === ''){
+										return course
+									} else if(course.name.includes(searchTerm)){
+										return course
+									}
+									}).map(course => <Course key={course.key} course={course}></Course>))
+								*/
+							}}
+						/>
+					</div>
 				{courseList}
 			</div>
-		//<body>this is where we list all of the classes</body>
   	);
 }
 

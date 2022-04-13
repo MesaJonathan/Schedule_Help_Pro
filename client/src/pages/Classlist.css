@@ -1,0 +1,16 @@
+.Classlist h1{
+    text-align: center 
+}
+
+.Classlist input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+} 
