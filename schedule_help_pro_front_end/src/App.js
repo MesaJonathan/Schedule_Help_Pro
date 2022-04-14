@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Schedule Help Pro</h1>
+      <h1>SCHEDULE HELP PRO </h1>
     </div>
   );
 }

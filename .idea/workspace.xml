@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03948648-0a50-494f-a957-0fe1c599a4a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/schedule_help_pro_front_end/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/schedule_help_pro_front_end/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule_help_pro_front_end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule_help_pro_front_end/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule_help_pro_front_end/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/schedule_help_pro_front_end/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule_help_pro_front_end/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/schedule_help_pro_front_end/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule_help_pro_front_end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/schedule_help_pro_front_end/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schedule_help_pro_front_end/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/schedule_help_pro_front_end/src/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="27A8zkXLYNopdj8YJbuh1uiowYK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03948648-0a50-494f-a957-0fe1c599a4a7" name="Default Changelist" comment="" />
+      <created>1648751803443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648751803443</updated>
+      <workItem from="1648751816033" duration="7658000" />
+      <workItem from="1649347275004" duration="4928000" />
+      <workItem from="1649779160629" duration="10564000" />
+      <workItem from="1649888107604" duration="502000" />
+      <workItem from="1649917407072" duration="7042000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
