@@ -1,0 +1,205 @@
+/* Add a black background color to the top navigation */
+/*THIS IS FOR THE NAVIGATION BAR AT THE TOP */
+.topnav {
+  background-color: darkslategray;
+  overflow: hidden;
+  padding: 25px;
+}
+.topnav b {
+  float: left;
+  color: lavenderblush;
+  text-align: center;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Heiti SC";
+  font-weight: bolder;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Heiti SC";
+  ;
+}
+.topnav a:hover {
+  background-color: lavenderblush;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/*TO ADD IMAGE*/
+.image1
+{
+  margin-right: 4px;
+  position: relative;
+  width: 600px;
+  height: 400px;
+  top: -150px;
+  float: right;
+  right: 10px;
+
+
+}
+body {
+  background-image:url(
+  "https://media.istockphoto.com/photos/business-and-education-background-picture-id671101136?k=20&m=671101136&s=170667a&w=0&h=IRW440E5O4UWMO0wRHdkTaNgdO6DzD_VnEqzJ-XAl0M=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*
+nav{
+
+  text-align: left;
+  font-family: Kabel;
+  font-size: 20px;
+
+}
+*/
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.class-list-view {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-column: 1 / span 4;
+}
+header{
+  background-color: lightcyan;
+
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  /*background-color: rgb(136, 136, 136); */
+}
+.about{
+  top: -100px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+div.transbox {
+  top: -100px;
+
+  margin: 5px;
+  background-color: aliceblue;
+  border: 1px wheat;
+  opacity: 0.7;
+  height: 170px;
+  width: 40%;
+  padding: -2px;
+}
+div.transbox h1 {
+  margin: 5%;
+  left: 100px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+
+}
+
+h1{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Heiti TC";
+  padding-top: 20px;
+
+}
+p{
+  font-family: Optima;
+  font-size: 18px;
+  color: black;
+}
+h2{
+  font-family: "Heiti SC";
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: midnightblue;
+  width: 400px;
+  margin-left: 250px;
+  padding: px;
+
+}
+p1{
+  font-family: "Times New Roman";
+  font-size: 18px;
+
+
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.box1,.box2,.box3{
+  width: 300px;
+  height:320px;
+  mix-blend-mode: multiply;
+  background: radial-gradient(circle at top left, rgba(255,255,255,.3)),
+  radial-gradient(circle at bottom right, transparent 340px, rgba(255,255,255,.3));
+  margin: 15px;
+  padding: 5px;
+  color: rgb(10, 0, 0);
+  text-align: center;
+  transition: .3s ease-in-out;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover{
+  background-color: rgba(50, 56, 59, 0.93)
+
+}
+h4{
+  letter-spacing: 2px;
+  margin: 0 0 .6rem 0;
+}
+.box1 p,
+.box2 p,
+.box3 p{
+  line-height:1.6;
+  padding: 0 10px;
+
+}
+.heading1{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  width: 1000px;
+  height: 100px;
+
+}
