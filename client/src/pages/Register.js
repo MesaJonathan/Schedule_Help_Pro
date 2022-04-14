@@ -44,9 +44,11 @@ function App() {
           type="password" 
           placeholder="Password" 
         />
-        <br />
+        <br/><br/>
         <input type="submit" value="Register"/>
       </form>
+      <br/>
+      <a href="Login">Login Here</a>
     </div>
   );
 }
