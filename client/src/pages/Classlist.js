@@ -16,8 +16,6 @@ class schoolCourse{
 		}
     }
 }
-
-
 	
 function ClassList(){
 	const [courseList, setCourseList] = useState([])
@@ -61,7 +59,7 @@ function ClassList(){
 				<h1>Class List</h1>
 					<div className='input'>
 						<input 
-							type="text" 
+							type="search" 
 							placeholder="Filter Classes..." 
 							onChange={event => {
 								setSearchTerm(event.target.value)
@@ -77,7 +75,7 @@ function ClassList(){
 							}}
 						/>
 					</div>
-				{courseList}
+					{courseList}
 			</div>
   	);
 }

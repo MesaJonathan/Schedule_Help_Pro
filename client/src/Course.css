@@ -10,3 +10,8 @@
     padding: 10px;
     grid-column: 1 / span 4;
 }
+
+.class-list-view h3{
+    text-align: left;
+    font-size: 200%;
+}
