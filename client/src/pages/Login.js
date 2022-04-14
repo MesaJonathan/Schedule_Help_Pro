@@ -50,7 +50,7 @@ function App() {
         <input type="submit" value="Login"/>
       </form>
       <br/>
-      <a href="Register">Register here</a>
+      <a href="Register">Register here</a><br/>
     </div>
   );
 }
