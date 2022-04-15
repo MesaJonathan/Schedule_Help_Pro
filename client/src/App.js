@@ -13,13 +13,14 @@ const App = () => {
         <div>
             <BrowserRouter> 
                 <Routes>
-                    <Route path="/" element={<Navigate replace to="login" />} />
+                    <Route path="/" element={<Navigate replace to="Homescreen" />} />
                     <Route path="/login"  element={<Login/>} />
                     <Route path="/home"  element={<Homescreen/>} />
                     <Route path="/register"  element={<Register/>} />
                     <Route path="/dashboard"  element={<Dashboard/>} />
                     <Route path="/classlist"  element={<ClasList/>} />
                     <Route path="/classview"  element={<ClassView/>} />
+                    <Route path="/Homescreen"  element={<Homescreen/>} />
                 </Routes>
             </BrowserRouter>
         </div>

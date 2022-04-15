@@ -51,6 +51,8 @@ function App() {
       </form>
       <br/>
       <a href="Register">Register here</a><br/>
+      <br/>
+      <a href="Homescreen">Go back home!</a><br/>
     </div>
   );
 }
