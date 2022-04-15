@@ -71,7 +71,7 @@ function ClassList(){
 										return course
 									}
 									}).map(course => <Course key={course.key} course={course}></Course>))
-								*/
+									*/
 							}}
 						/>
 					</div>
