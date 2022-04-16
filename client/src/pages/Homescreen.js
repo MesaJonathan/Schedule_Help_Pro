@@ -19,7 +19,6 @@ function Homescreen() {
             you a class list. You can then click on a class to access the page for it <br/>
             </p1>
             <h2>Why use Schedule Help Pro</h2>
-        <div className="container">
             <div class = "box1">
                 <img width ="200" height ="200" src="https://static.vecteezy.com/system/resources/thumbnails/003/572/437/small/illustration-of-book-icon-free-free-vector.jpg" alt=""></img>
                 <h4>Register Efficiently</h4>
@@ -37,7 +36,7 @@ function Homescreen() {
             </div>
         </div>
 
-        </div>
+        
     )
 }
 

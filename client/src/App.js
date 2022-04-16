@@ -7,7 +7,6 @@ import ClasList from './pages/Classlist'
 import ClassView from './pages/ClassView'
 import Homescreen from './pages/Homescreen'
 
-
 const App = () => {
     return (
         <div>
