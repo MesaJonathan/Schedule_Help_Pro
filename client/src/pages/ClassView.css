@@ -1,4 +1,9 @@
 .course{
     padding-left: 40px;
-    
+    padding-top: 40px;
+    background-color: aquamarine;
+}
+.course h1{
+    text-align: center;
+    font-family: "Comic Sans";
 }
