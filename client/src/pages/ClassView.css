@@ -3,7 +3,21 @@
     padding-top: 40px;
     background-color: aquamarine;
 }
+
+.inline{
+    display: flex;
+    flex-direction: row;
+}
 .course h1{
-    text-align: center;
+    text-align: left;
     font-family: "Comic Sans";
+}
+
+.course button{
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 0px 20px;
 }
