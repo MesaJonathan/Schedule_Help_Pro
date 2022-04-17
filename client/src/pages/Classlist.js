@@ -76,6 +76,7 @@ function ClassList(){
 						/>
 					</div>
 					{courseList}
+					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			</div>
   	);
 }
