@@ -44,6 +44,7 @@ function ClassView() {
             <h3>{course.desc}</h3>
             <Link to='/classlist'><p>Return to Class List</p></Link>
         </div>
+
     )
 }
 
