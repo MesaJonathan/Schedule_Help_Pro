@@ -35,14 +35,15 @@ function ClassView() {
 
     return(
         <div className='course'>
-            <h1>{name} ({code})</h1>
-            <h2>Course Syllabus:</h2>
-            <button onClick={() => {window.open(link)}}>Click here for Syllabus</button>
+            <Link to='/classlist'><p>Return to Class List</p></Link>
+            <div className='inline'>
+                <h1>{name} ({code})</h1>
+                <button onClick={() => {window.open(link)}}>Click here for Syllabus</button>
+            </div>
             <h2>{course.pres}</h2>
             <h2>Course ID: {course.id}</h2>
             <h2>Description:</h2>
             <h3>{course.desc}</h3>
-            <Link to='/classlist'><p>Return to Class List</p></Link>
         </div>
 
     )
