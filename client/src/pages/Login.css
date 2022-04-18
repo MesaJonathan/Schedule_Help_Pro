@@ -1,0 +1,52 @@
+.App {
+    background-color: rgb(137,178,245);
+}
+.App loginbox{
+    width: 320px;
+    height: 450px;
+    background:rgb(137,178,245);
+    color: rgb(2,0,0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.App h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif
+}
+.App input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+.App input[type = "text"], input[type = "password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(2,0,0);
+    font-size: 16px;
+}
+.App input[type = "submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(2,0,0);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.App a{
+    font-family:'Times New Roman', Times, serif
+}
+
+

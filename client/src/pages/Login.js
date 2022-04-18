@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './Login.css'
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
 
   return (
     <div className="App">
+      <div className ="loginbox">
+        <loginbox>
       <h1>Login</h1>
       <form onSubmit={loginUser}>
         <input 
@@ -53,6 +56,8 @@ function App() {
       <a href="Register">Register here</a><br/>
       <br/>
       <a href="Homescreen">Go back home!</a><br/>
+      </loginbox>
+      </div>
     </div>
   );
 }

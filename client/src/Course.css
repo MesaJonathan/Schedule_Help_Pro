@@ -6,12 +6,15 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-gap: 10px;
-    padding: 10px;
+    grid-gap: 5px;
+    padding: 5px;
     grid-column: 1 / span 4;
 }
 
 .class-list-view h3{
     text-align: left;
-    font-size: 200%;
+    font-size: 150%;
+}
+.class-list-view button{
+    background-color:rgb(204,237,237)
 }

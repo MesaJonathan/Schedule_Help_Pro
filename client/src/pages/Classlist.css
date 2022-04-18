@@ -6,12 +6,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-top: 20px;
     margin-left: 10px;
-    width: 350px;
+    width: 400px;
     height: 40px;
     font-size: 20px;
     padding-left: 10px;
-
+    background-color:rgb(204,237,237)
 } 
+
+.Classlist{
+    background-color: rgb(137,178,245);
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+}
