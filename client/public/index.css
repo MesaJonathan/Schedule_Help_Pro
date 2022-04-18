@@ -44,10 +44,12 @@ body {
     border-collapse: collapse;
     padding: 0; 
     margin: 0;
+    background-color: #b0f7dc;
 }
 
 html {
     cursor: none;
+    scroll-behavior: smooth;
 }
 
 #circularcursor {

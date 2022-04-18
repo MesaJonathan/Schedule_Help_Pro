@@ -16,10 +16,7 @@
 } 
 
 .Classlist{
-    background-color: rgb(137,178,245);
-    top: 20px;
-    left: 0px;
-    right: 0px;
-    position: absolute;
+    background-color: #b0f7dc;
+    padding-top: 10px;
 }
 
