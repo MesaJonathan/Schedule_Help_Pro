@@ -1,3 +1,28 @@
+/*CURSOR*/
+html {
+    cursor: none;
+}
+  
+#circularcursor {
+    background-color: transparent;
+    border:1px solid black;    
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    position: absolute;
+    z-index: 1;
+}
+
+body {
+    /*GOAT article: https://stackoverflow.com/questions/16427903/remove-all-padding-and-margin-table-html-and-css*/
+    font-family: 'Signika', sans-serif;
+    border-collapse: collapse;
+    padding: 0; 
+    margin: 0;
+}
+
 /*THIS IS FOR THE NAVIGATION BAR AT THE TOP */
 .topnav {
     background-color: darkslategray;
@@ -5,7 +30,6 @@
     padding: 25px;
     position: sticky;
     top: 0;
-
   }
 .topnav b {
     float: left;
@@ -38,32 +62,8 @@
     color: white;
 }
 
-body {
-    /*GOAT article: https://stackoverflow.com/questions/16427903/remove-all-padding-and-margin-table-html-and-css*/
-    font-family: 'Signika', sans-serif;
-    border-collapse: collapse;
-    padding: 0; 
-    margin: 0;
-}
-
-html {
-    cursor: none;
-}
-
-#circularcursor {
-    background-color: transparent;
-    border:1px solid black;    
-    height:20px;
-    width:20px;
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    position: absolute;
-    z-index: 1;
-}
-
 .footer-dark {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
