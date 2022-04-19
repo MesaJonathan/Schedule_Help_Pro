@@ -56,7 +56,7 @@ function ClassList(){
 
 	return (
 			<div className="Classlist">
-				<h1>Class List</h1>
+				<h1>Class List </h1>
 					<div className='input'>
 						<input 
 							type="search" 

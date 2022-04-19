@@ -1,8 +1,12 @@
 .course{
-    padding-left: 40px;
-    padding-top: 40px;
-    background-color: b0f7dc;
-    padding-bottom: 18%;
+    font-family: "Heiti SC";
+    font-size: 20px;
+    background-color: darkslategray;
+    color: white;
+    padding-top: -10px;
+    width: 900px;
+    padding-bottom: 5px;
+
 }
 
 .inline{
@@ -21,4 +25,11 @@
     padding: 10px 60px;
     border-radius: 5px;
     margin: 0px 20px;
+}
+p{
+    font-size: 25px;
+    background-color: lavenderblush;
+    width: 250px;
+    height: 30px;
+    padding-left: 25px;
 }

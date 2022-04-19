@@ -3,12 +3,14 @@
 }
 
 .class-list-view {
+
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-gap: 5px;
-    padding: 5px;
+    padding: 12px;
     grid-column: 1 / span 4;
+
 }
 
 .class-list-view h3{
@@ -16,5 +18,11 @@
     font-size: 150%;
 }
 .class-list-view button{
-    background-color:rgb(204,237,237)
+    background-color:rgb(204,237,237);
+    font-family: "Heiti SC";
+    font-size: 15px;
+    background-color: darkslategray;
+    color: white;
+    height: 65px;
+    width: 700px;
 }

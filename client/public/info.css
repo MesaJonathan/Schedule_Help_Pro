@@ -2,6 +2,7 @@
 html {
     cursor: none;
 }
+
   
 #circularcursor {
     background-color: transparent;
@@ -43,6 +44,10 @@ html {
     text-decoration: none;
     font-size: 20px;
     font-family: "Heiti SC";
+}
+.heading1:hover{
+    background-color: aliceblue;
+    font-size: 40px;
 }
 
 .topnav a:hover {
@@ -149,14 +154,22 @@ h1 {
 }
 
 #text1, #text2 {
-    padding-left: 2%;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #0c0c57;
+    width: 700px;
+    margin-left: 100px;
+    padding-right: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-family: "Heiti SC";
+    font-size: 20px;
+
 }
 
-p {
-    font-family: Optima;
-    font-size: 18px;
-    color: black;
-}
+
 
 h2 {
     font-family: "Heiti SC";
@@ -165,9 +178,28 @@ h2 {
     color: midnightblue;
     width: 400px;
     margin-left: 250px;
-    padding: px;
+    padding: 10px;
     text-align: center;
 }
+h3{
+    font-family: "Heiti SC";
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: midnightblue;
+    width: 400px;
+    margin-left: 100px;
+    padding: 10px;
+
+    text-align: center;
+}
+#text1:hover, #text2:hover{
+    background-color: aliceblue;
+    font-size: 25px;
+    width: 800px;
+
+
+}
+
 
 p1 {
     font-family: "Times New Roman";
@@ -181,12 +213,13 @@ p1 {
     align-items: center;
 }
 
+
+
 .box1,.box2,.box3 {
     width: 300px;
     height:320px;
-    mix-blend-mode: multiply;
-    background: radial-gradient(circle at top left, rgba(255,255,255,.3)),
-    radial-gradient(circle at bottom right, transparent 340px, rgba(255,255,255,.3));
+    background-image: none;
+
     margin: 15px;
     padding: 5px;
     color: rgb(10, 0, 0);
@@ -198,9 +231,6 @@ p1 {
     color:#f2f2f2;
 }
 
-p:hover {
-    color: #f2f2f2;
-}
 
 h4 {
     letter-spacing: 2px;
